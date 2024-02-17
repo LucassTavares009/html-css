@@ -1,0 +1,175 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: 'raptors' ;
+    src: url(fontes/NBA\ Raptors.ttf);
+}
+
+
+body {
+    margin: 0px;
+    background-color: #84E1AD;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.5em;
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3BD37F, #1A5C38);
+    color: white;
+    padding: 6px;
+    margin: 0px;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.413);
+}
+
+header > p {
+    text-align: center;
+}
+
+nav {
+    padding-bottom: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.331);
+}
+
+nav a:hover {
+    background-color: #258a52fd;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 5px;
+}
+
+#principal {
+    font: normal normal 3em 'raptors';
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.347);
+}
+
+h1 {
+    font: normal normal 2em 'idroid';
+    padding-left: 20px;
+    color: #266442;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.347);
+}
+
+h2 {
+    font: normal normal 1.5em 'idroid';
+    padding-left: 20px;
+    color: #266442;
+    background-image: linear-gradient(to right, #d6ffe7, white);
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.347);
+}
+
+p {
+    text-indent: 25px;
+    padding: 10px 20px;
+}
+
+#conteudo {
+    background-color: white;
+    width: 850px;
+    margin: auto;
+    padding: 1px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.413);
+     
+}
+
+footer {
+    background-color: #266442;
+    margin: auto;
+    padding-bottom: 0px;
+}
+
+footer p {
+    margin-bottom: 0%;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.gg {
+    color: #2FA866;
+}
+
+.dandroid {
+    padding: 0px 23.5px;
+}
+
+.irina {
+    padding: 0px 23.5px;
+}
+
+.bugdroid {
+    padding: 0px 275px;
+}
+
+iframe {
+    height: 400px;
+    width: 800px;
+    padding: 14px 27px;
+    background-color:#1A5C38;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.413);
+}
+
+ 
+.lista {
+    background-color: #C5EBD6;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.413);
+}
+
+.pergunta {
+    background-color: #2FA866;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.203);
+    
+}
+
+#link {
+    color: #266442;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#link:hover {
+    color: white;
+    background-color: #266442;
+}
+
+span {
+    color: #266442;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+    list-style:none;
+    list-style-position: inside;
+    columns: 2;
+}
+
+
+    
+
+
+
+
+
+
