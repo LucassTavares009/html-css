@@ -8,64 +8,78 @@
     src: url(fontes/NBA\ Raptors.ttf);
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
-    margin: 0px;
     background-color: #84E1AD;
     font-family: sans-serif;
     text-align: justify;
     line-height: 1.5em;
-    
+    text-align: justify;
 }
 
 header {
     background-image: linear-gradient(to bottom, #3BD37F, #1A5C38);
     color: white;
-    padding: 6px;
-    margin: 0px;
+    padding: 5px;
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.413);
-}
-
-header > p {
     text-align: center;
 }
 
+#principal {
+    padding: 10px;
+    font: normal normal 3rem 'raptors';
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.347);
+}
+
+header p {
+    padding: 20px;
+    font-size: 1rem;
+}
+
 nav {
-    padding-bottom: 5px;
+    text-align: left;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    padding: 20px;
-
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.331);
+    padding: 9px;
 }
 
 nav a:hover {
+    color:#C5EBD6;
     background-color: #258a52fd;
-    padding-top: 11px;
-    padding-bottom: 11px;
+    transition: 1s;
     border-radius: 5px;
 }
 
-#principal {
-    font: normal normal 3em 'raptors';
-    text-align: center;
-    color: white;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.347);
+#conteudo {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.413);
+     
 }
 
 h1 {
-    font: normal normal 2em 'idroid';
-    padding-left: 20px;
+    font: normal normal 2rem 'idroid';
+    padding: 20px;
     color: #266442;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.347);
 }
 
 h2 {
-    font: normal normal 1.5em 'idroid';
+    font: normal normal 1.5rem 'idroid';
     padding-left: 20px;
     color: #266442;
     background-image: linear-gradient(to right, #d6ffe7, white);
@@ -78,55 +92,39 @@ p {
     padding: 10px 20px;
 }
 
-#conteudo {
-    background-color: white;
-    width: 850px;
-    margin: auto;
-    padding: 1px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.413);
-     
-}
-
-footer {
-    background-color: #266442;
-    margin: auto;
-    padding-bottom: 0px;
-}
-
-footer p {
-    margin-bottom: 0%;
-    text-align: center;
-    font-style: italic;
-    color: white;
-}
-
-.gg {
-    color: #2FA866;
-}
-
-.dandroid {
-    padding: 0px 23.5px;
-}
-
-.irina {
-    padding: 0px 23.5px;
+img {
+    width: 100%;
+    
 }
 
 .bugdroid {
-    padding: 0px 275px;
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.vid {
+    background-color: #1A5C38;
+    position: relative;
+    padding-bottom: 56.2%;
 }
 
 iframe {
-    height: 400px;
-    width: 800px;
-    padding: 14px 27px;
-    background-color:#1A5C38;
-    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.413);
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+ 
+.pergunta {
+    background-color: #2FA866;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.203);
+    
 }
 
- 
 .lista {
     background-color: #C5EBD6;
     border-radius: 15px;
@@ -134,12 +132,10 @@ iframe {
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.413);
 }
 
-.pergunta {
-    background-color: #2FA866;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.203);
-    
+ul {
+    list-style:none;
+    padding: 20px;
+    columns: 2;
 }
 
 #link {
@@ -159,13 +155,22 @@ span {
     font-weight: bold;
 }
 
-ul {
-    list-style:none;
-    list-style-position: inside;
-    columns: 2;
+footer {
+    background-color: #266442;
+    text-align: center;
+    font-style: italic;
+    color: white;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
 
+footer a:hover {
+    color: #2FA866;
+    transition: 0.5s;
+}
     
 
 
