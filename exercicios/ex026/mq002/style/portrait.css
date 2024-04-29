@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
 /*Aparelho na vertical (portrait)*/
+
+body {
+   background: url(../imagens/cev-portrait.jpg) center bottom;
+}
