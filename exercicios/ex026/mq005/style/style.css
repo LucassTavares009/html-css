@@ -93,6 +93,23 @@ article > p {
     text-indent: 20px;
 }
 
+@media screen and (min-width: 480px) {
+    #burguer {
+        display: none;
+       }
+
+    nav {
+        display: block;
+    }
+
+    nav > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        max-width: 800px;
+    }
+}
 
 
 
